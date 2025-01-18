@@ -1,5 +1,6 @@
 function isAnagram(str1,str2)
 {
+  //string length check
     if(str1.length != str2.length)
       return "Not Anagram";
 
